@@ -3,26 +3,32 @@
 This repository gives you an installable skill for ASD-STE100 writing.
 Use it to write or rewrite technical text in Simplified Technical English.
 
+## Example output
+
+| Without the skill                                                                                                                                                                                                          | With the skill                                                                                                                                         |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Prior to initiating the maintenance task, the technician shall perform verification of the hydraulic pressure indicator and subsequently commence removal of the access panel in order to inspect the pump drive coupling. | Before you start the maintenance task, do a check of the hydraulic pressure indicator. Remove the access panel. Do a check of the pump drive coupling. |
+
 ## Install with `skills`
 
 Run this command:
 
 ```bash
-npx --yes skills add blagoySimandov/asd-ste100-writer-skill --skill ste100-writer -a github-copilot -g -y
+npx skills add blagoySimandov/asd-ste100-writer-skill
 ```
 
-You can also use the full URL:
+Examples for specific agents:
 
 ```bash
-npx --yes skills add https://github.com/blagoySimandov/asd-ste100-writer-skill --skill ste100-writer -a github-copilot -g -y
+npx skills add blagoySimandov/asd-ste100-writer-skill -a github-copilot -g -y
+npx skills add blagoySimandov/asd-ste100-writer-skill -a claude-code -g -y
+npx skills add blagoySimandov/asd-ste100-writer-skill -a opencode -g -y
 ```
-
-The command installs the skill to your GitHub Copilot skills directory.
 
 Use this command to see the skills before you install:
 
 ```bash
-npx --yes skills add blagoySimandov/asd-ste100-writer-skill --list
+npx skills add blagoySimandov/asd-ste100-writer-skill --list
 ```
 
 ## Install from this repository
