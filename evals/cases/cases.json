@@ -1,0 +1,17 @@
+[
+  {
+    "id": "procedure-basic",
+    "text_type": "procedural",
+    "max_words_per_sentence": 20
+  },
+  {
+    "id": "safety-warning",
+    "text_type": "procedural",
+    "max_words_per_sentence": 20
+  },
+  {
+    "id": "descriptive-data",
+    "text_type": "descriptive",
+    "max_words_per_sentence": 25
+  }
+]
