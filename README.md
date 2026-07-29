@@ -3,20 +3,26 @@
 This repository gives you an installable skill for ASD-STE100 writing.
 Use it to write or rewrite technical text in Simplified Technical English.
 
-## Install with npx
+## Install with `skills`
 
 Run this command:
 
 ```bash
-npx --yes github:blagoySimandov/asd-ste100-writer-skill
+npx --yes skills add blagoySimandov/asd-ste100-writer-skill --skill ste100-writer -a github-copilot -g -y
 ```
 
-The command copies the skill to `~/.claude/skills/ste100-writer`.
-
-If the folder exists, use:
+You can also use the full URL:
 
 ```bash
-npx --yes github:blagoySimandov/asd-ste100-writer-skill -- --force
+npx --yes skills add https://github.com/blagoySimandov/asd-ste100-writer-skill --skill ste100-writer -a github-copilot -g -y
+```
+
+The command installs the skill to your GitHub Copilot skills directory.
+
+Use this command to see the skills before you install:
+
+```bash
+npx --yes skills add blagoySimandov/asd-ste100-writer-skill --list
 ```
 
 ## Install from this repository

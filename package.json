@@ -1,11 +1,14 @@
 {
-  "name": "asd-ste100-writer-skill",
+  "name": "asd-ste-100-writer",
   "version": "1.0.0",
   "description": "Install the ASD-STE100 writer skill with npx.",
   "license": "MIT",
   "type": "commonjs",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
-    "asd-ste100-writer-skill": "bin/skills-install.js"
+    "asd-ste-100-writer": "bin/skills-install.js"
   },
   "files": [
     "bin",
