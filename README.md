@@ -8,7 +8,7 @@ Use it to write or rewrite technical text in Simplified Technical English.
 Run this command:
 
 ```bash
-npx asd-ste100-writer-skill
+npx --yes github:blagoySimandov/asd-ste100-writer-skill
 ```
 
 The command copies the skill to `~/.claude/skills/ste100-writer`.
@@ -16,7 +16,7 @@ The command copies the skill to `~/.claude/skills/ste100-writer`.
 If the folder exists, use:
 
 ```bash
-npx asd-ste100-writer-skill -- --force
+npx --yes github:blagoySimandov/asd-ste100-writer-skill -- --force
 ```
 
 ## Install from this repository
