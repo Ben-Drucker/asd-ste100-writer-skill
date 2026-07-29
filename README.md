@@ -3,16 +3,30 @@
 This repository gives you an installable skill for ASD-STE100 writing.
 Use it to write or rewrite technical text in Simplified Technical English.
 
-## Install
+## Install with npx
+
+Run this command:
+
+```bash
+npx asd-ste100-writer-skill
+```
+
+The command copies the skill to `~/.claude/skills/ste100-writer`.
+
+If the folder exists, use:
+
+```bash
+npx asd-ste100-writer-skill -- --force
+```
+
+## Install from this repository
 
 1. Clone this repository.
 2. Copy `skills/ste100-writer` to your local skills directory.
 3. Restart your tool.
 
-Example:
-
 ```bash
-git clone https://github.com/<your-org>/asd-ste100-writer-skill.git
+git clone https://github.com/blagoySimandov/asd-ste100-writer-skill.git
 mkdir -p ~/.claude/skills
 cp -R asd-ste100-writer-skill/skills/ste100-writer ~/.claude/skills/ste100-writer
 ```

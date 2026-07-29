@@ -1,0 +1,15 @@
+{
+  "name": "asd-ste100-writer-skill",
+  "version": "1.0.0",
+  "description": "Install the ASD-STE100 writer skill with npx.",
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {
+    "asd-ste100-writer-skill": "bin/skills-install.js"
+  },
+  "files": [
+    "bin",
+    "skills",
+    "README.md"
+  ]
+}
