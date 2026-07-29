@@ -17,8 +17,8 @@ ASD-STE100 Simplified Technical English. The source is a real README with
 marketing words, gerunds, passive verbs, and long sentences. The skill removed
 the marketing words and made each sentence shorter and more clear.
 
-- Before: [`examples/ai-readme-before.md`](examples/ai-slop-readme-before.md)
-- After: [`examples/ai-readme-after.md`](examples/ai-slop-readme-after.md)
+- Before: [`examples/ai-readme-before.md`](examples/ai-readme-before.md)
+- After: [`examples/ai-readme-after.md`](examples/ai-readme-after.md)
 
 ## Install with `skills`
 
