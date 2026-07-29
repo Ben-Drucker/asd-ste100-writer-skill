@@ -5,10 +5,20 @@ Use it to write or rewrite technical text in Simplified Technical English.
 
 ## Example output
 
-| Without the skill | With the skill |
-|---|---|
-| Prior to initiating the maintenance task, the technician shall perform verification of the hydraulic pressure indicator and subsequently commence removal of the access panel in order to inspect the pump drive coupling. | Before you start the maintenance task, do a check of the hydraulic pressure indicator. Remove the access panel. Do a check of the pump drive coupling. |
-| The integration test creates a topic and subscription on the emulator, publishes a message, and blocks until the message is actually received, asserting payload and attributes. | The integration test creates a topic and a subscription on the emulator. Then it publishes one message. The test waits for delivery and checks the payload and attributes. |
+| Without the skill                                                                                                                                                                                                          | With the skill                                                                                                                                                             |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Prior to initiating the maintenance task, the technician shall perform verification of the hydraulic pressure indicator and subsequently commence removal of the access panel in order to inspect the pump drive coupling. | Before you start the maintenance task, do a check of the hydraulic pressure indicator. Remove the access panel. Do a check of the pump drive coupling.                     |
+| The integration test creates a topic and subscription on the emulator, publishes a message, and blocks until the message is actually received, asserting payload and attributes.                                           | The integration test creates a topic and a subscription on the emulator. Then it publishes one message. The test waits for delivery and checks the payload and attributes. |
+
+## Example of a full document
+
+This is an example of a change from a README generated with AI to a README in
+ASD-STE100 Simplified Technical English. The source is a real README with
+marketing words, gerunds, passive verbs, and long sentences. The skill removed
+the marketing words and made each sentence shorter and more clear.
+
+- Before: [`examples/ai-readme-before.md`](examples/ai-slop-readme-before.md)
+- After: [`examples/ai-readme-after.md`](examples/ai-slop-readme-after.md)
 
 ## Install with `skills`
 
